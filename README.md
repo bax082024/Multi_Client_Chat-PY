@@ -1,3 +1,3 @@
-# Simple reverse word algorithm.
+# Find the biggest number algorithm
 
-- Input a word and it reverses it
+- input numbers seperated by spaces, and it finds the biggest number
