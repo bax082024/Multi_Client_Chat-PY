@@ -1,6 +1,6 @@
 # Minimal TCP Server and Client
 
-- the server simply echoes the client input.
+- the server simply echoes the client input using sockets.
 
 
 ## How it works 
