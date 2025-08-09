@@ -1,3 +1,3 @@
-# Find the biggest number algorithm
+# how many vowels
 
-- input numbers seperated by spaces, and it finds the biggest number
+- input a word, and it tells you how many vowels is in the word
