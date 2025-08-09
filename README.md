@@ -1,21 +1,18 @@
-import socket
+# Minimal TCP Server and Client
 
-HOST = "127.0.0.1"  # Localhost (change to your LAN IP for others to connect)
-PORT = 65432        # Any free port > 1024
+- the server simply echoes the client input.
 
-# Create a TCP socket
-with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as server_socket:
-    server_socket.bind((HOST, PORT))  # Step 1: Bind to IP & Port
-    server_socket.listen()            # Step 2: Listen for connections
-    print(f"Server listening on {HOST}:{PORT}...")
 
-    conn, addr = server_socket.accept()  # Step 3: Accept connection
-    with conn:
-        print(f"Connected by {addr}")
+## How it works 
 
-        while True:
-            data = conn.recv(1024)  # Step 4: Receive data
-            if not data:
-                break  # Client closed connection
-            print(f"Client says: {data.decode()}")
-            conn.sendall(data)  # Step 5: Send data back (echo)
+1. Bind to an IP and port 
+
+2. Listen for connections 
+
+3. Accept a connection 
+
+4. Receive data 
+
+5. Send data back 
+
+6. Close the connection 

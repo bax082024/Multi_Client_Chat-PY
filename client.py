@@ -9,6 +9,6 @@ with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as client_socket:
         message = input("You: ")
         if message.lower() == "quit":
             break
-        client_socket.sendall(message.encode())  # Send to server
-        data = client_socket.recv(1024)  # Receive echo
+        client_socket.sendall(message.encode()) 
+        data = client_socket.recv(1024) 
         print("Server:", data.decode())
