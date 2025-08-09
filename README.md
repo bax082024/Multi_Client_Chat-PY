@@ -1,19 +1,47 @@
-# FizzBuzz
+# Password Strength Checker
 
-- Classic fizzbuzz just made for fun, used colorama for color output in terminal.
+- Input a password and it checks the strength based on these criterias :
 
-## How it works 
+  - Length
+  - Presence of uppercase letters
+  - Presence of lowercase letters
+  - Presence of numbers
+  - Presence of special characters
 
-Start counting from 1 to 100.
+--- 
 
-For each number:
+## How it works
 
-If it’s divisible by both 3 and 5 = "FizzBuzz".
+1. Ask the user for a password.
 
-Else if divisible by 3 = "Fizz".
+2. Start with a score of 0.
 
-Else if divisible by 5 = "Buzz".
+3. If length ≥ 8 → add 1 point.
 
-Else = the number itself.
+4. If it has uppercase letters → add 1 point.
 
-Move to the next number until you reach 100.
+5. If it has lowercase letters → add 1 point.
+
+6. If it has numbers → add 1 point.
+
+7. If it has special characters → add 1 point.
+
+8. Decide strength:
+
+  - 0–2 points → Weak
+
+  - 3–4 points → Medium
+
+  - 5 points → Strong
+
+---
+
+## Tech
+
+- Colorama
+
+
+
+
+
+
