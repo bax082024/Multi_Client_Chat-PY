@@ -5,7 +5,7 @@
 
 ## How it works 
 
-1. Bind to an IP and port 
+1. Bind to an IP and port (if you change port, remember to also change client port)
 
 2. Listen for connections 
 
@@ -16,3 +16,4 @@
 5. Send data back 
 
 6. Close the connection 
+
