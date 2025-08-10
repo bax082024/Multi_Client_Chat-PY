@@ -3,18 +3,22 @@
 - A lightweight, terminal-based community chat server written in Python.
 Allows multiple clients to connect, choose nicknames, and exchange messages in real time over TCP.
 
+---
 
 ## Features 
 
-1. Bind to an IP and port (if you change port, remember to also change client port)
+- Multi-client support using threading
 
-2. Listen for connections 
+- Nickname system — each client chooses their own name on join
 
-3. Accept a connection 
+- Broadcast messaging — send messages to everyone online
 
-4. Receive data 
+- Simple commands:
 
-5. Send data back 
+  - /list → see who’s online
 
-6. Close the connection 
+  - /quit → disconnect from the server
 
+- Thread-safe client handling
+
+- Easy to run locally or over a LAN
