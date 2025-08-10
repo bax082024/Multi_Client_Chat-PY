@@ -64,3 +64,16 @@ Allows multiple clients to connect, choose nicknames, and exchange messages in r
 
 ---
 
+## Network Notes
+
+1. To allow connections from other devices on your network:
+
+  - Set **HOST** in server.py to your LAN IP (example:  192.168.1.100).
+  - Ensure your firewall allows inbound traffic on the chosen **PORT**.
+
+2. For internet access:
+
+ - Port forward the server’s port on your router.
+ - Use your public IP in **client.py**'s **SERVER_HOST**.
+
+---
