@@ -15,9 +15,9 @@ Allows multiple clients to connect, choose nicknames, and exchange messages in r
 
 - Simple commands:
 
-  - /list → see who’s online
+  - /list = see who’s online
 
-  - /quit → disconnect from the server
+  - /quit = disconnect from the server
 
 - Thread-safe client handling
 
