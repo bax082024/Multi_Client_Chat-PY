@@ -80,4 +80,4 @@ Allows multiple clients to connect, choose nicknames, and exchange messages in r
 
 ## Architecture
 
-![Project Diagram](ProjectPlan.png.png)
+![Project Diagram](ProjectPlan.png)
