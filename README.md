@@ -80,4 +80,4 @@ Allows multiple clients to connect, choose nicknames, and exchange messages in r
 
 ## Architecture
 
-![Architecture Diagram](chat-server-architecture.png)
+![Project Diagram](ProjectPlan.png.png)
