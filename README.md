@@ -22,3 +22,15 @@ Allows multiple clients to connect, choose nicknames, and exchange messages in r
 - Thread-safe client handling
 
 - Easy to run locally or over a LAN
+
+---
+
+## Requirements
+
+- Python 3.8+
+
+- Works cross-platform (Windows, macOS, Linux)
+
+- No external dependencies — uses Python’s built-in socket and threading modules
+
+---
