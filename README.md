@@ -51,3 +51,16 @@ Allows multiple clients to connect, choose nicknames, and exchange messages in r
   - python client.py
 
 ---
+
+## How to use
+
+1. When prompted, enter your nickname.
+
+2. Type messages and press Enter to send.
+
+3. Special commands:
+  - `/list` = show all connected users
+  - `/quit` = leave the chat
+
+---
+
