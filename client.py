@@ -20,15 +20,13 @@ def listen(sock):
             sock.close()
         except:
             pass
-        os._exit(0)  # ensure exit if listener ends
+        os._exit(0)
 
 def main():
     with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
         s.connect((SERVER_HOST, SERVER_PORT))
-        # start listener thread
         threading.Thread(target=listen, args=(s,), daemon=True).start()
 
-        # read from stdin and send to server
         try:
             for line in sys.stdin:
                 s.sendall(line.encode("utf-8"))

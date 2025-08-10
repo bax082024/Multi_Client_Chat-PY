@@ -77,3 +77,7 @@ Allows multiple clients to connect, choose nicknames, and exchange messages in r
  - Use your public IP in **client.py**'s **SERVER_HOST**.
 
 ---
+
+## Architecture
+
+![Architecture Diagram](chat-server-architecture.png)

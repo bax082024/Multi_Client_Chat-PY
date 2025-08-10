@@ -1,10 +1,10 @@
 import socket
 import threading
 
-HOST = "0.0.0.0"   # listen on all interfaces (use "127.0.0.1" if you want local only)
+HOST = "0.0.0.0"
 PORT = 65432
 
-clients = {}        # conn -> nickname
+clients = {} 
 clients_lock = threading.Lock()
 
 def broadcast(msg, exclude_conn=None):
@@ -18,7 +18,6 @@ def broadcast(msg, exclude_conn=None):
                 conn.sendall(msg.encode("utf-8"))
             except Exception:
                 dead.append(conn)
-        # clean up dead connections
         for d in dead:
             try:
                 d.close()
