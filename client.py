@@ -1,6 +1,8 @@
 import socket
 import threading
 import sys
+import os
+
 
 SERVER_HOST = "127.0.0.1"  # change to server IP if connecting over LAN
 SERVER_PORT = 65432
