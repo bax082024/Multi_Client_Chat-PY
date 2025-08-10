@@ -34,3 +34,20 @@ Allows multiple clients to connect, choose nicknames, and exchange messages in r
 - No external dependencies — uses Python’s built-in socket and threading modules
 
 ---
+
+## Installation
+
+1. Clone the repository :
+ - https://github.com/bax082024/Multi_Client_Chat-PY.git
+
+2. Start the server :
+  - python server.py
+
+- By default, the server listens on:
+  - HOST = 0.0.0.0
+  - PORT = 65432
+
+3. Start a Client :
+  - python client.py
+
+---
