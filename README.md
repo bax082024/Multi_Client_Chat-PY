@@ -1,9 +1,10 @@
-# Minimal TCP Server and Client
+# Python Multi-Client Chat Server
 
-- the server simply echoes the client input using sockets.
+- A lightweight, terminal-based community chat server written in Python.
+Allows multiple clients to connect, choose nicknames, and exchange messages in real time over TCP.
 
 
-## How it works 
+## Features 
 
 1. Bind to an IP and port (if you change port, remember to also change client port)
 
