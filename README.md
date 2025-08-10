@@ -81,3 +81,11 @@ Allows multiple clients to connect, choose nicknames, and exchange messages in r
 ## Architecture
 
 ![Project Diagram](ProjectPlan.png)
+
+---
+
+
+## Contact
+
+For questions or feedback, please contact :
+	- **bax082024@gmail.com**
